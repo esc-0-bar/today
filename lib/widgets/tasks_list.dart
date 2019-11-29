@@ -19,6 +19,10 @@ class TasksList extends StatelessWidget {
               },
               longPressCallback: () {
                 taskData.deleteTask(task);
+                Scaffold.of(context).showSnackBar(SnackBar(
+                  duration: Duration(milliseconds: 850),
+                  content: Text("Task Deleted!"),
+                ));
               },
             );
           },
