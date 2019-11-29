@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:today/models/task_data.dart';
 import 'package:today/widgets/tasks_list.dart';
 import 'add_task_screen.dart';
+import 'package:provider/provider.dart';
 
 class TasksScreen extends StatelessWidget {
   @override
@@ -44,7 +46,7 @@ class TasksScreen extends StatelessWidget {
                       fontWeight: FontWeight.w700),
                 ),
                 Text(
-                  '12 Tasks',
+                  '${Provider.of<TaskData>(context).taskCount} Tasks',
                   style: TextStyle(fontSize: 18.0, color: Colors.white),
                 ),
               ],
@@ -58,7 +60,7 @@ class TasksScreen extends StatelessWidget {
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(20.0),
                       topRight: Radius.circular(20.0))),
-              child: new TaskList(),
+              child: TasksList(),
             ),
           )
         ],
