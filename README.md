@@ -1,16 +1,52 @@
-# today
+# Today
 
-A To-Do application.
+A cross platform app to make to-do lists.
 
-## Getting Started
+### Tech
 
-This project is a starting point for a Flutter application.
+Today uses a number of tech to work properly:
 
-A few resources to get you started if this is your first Flutter project:
+* [FLUTTER] - Google’s UI toolkit for building beautiful, natively compiled applications.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+And of course Today is open source with a public repository on GitHub.
+
+## Download
+
+| Version | Android | iOS |
+| --- | --- | --- |
+| 1.0.0 | [APK][1] | IPA |
+
+
+### Screenshots
+----
+![](screenshots/Screenshot1.png)
+![](screenshots/Screenshot2.png)
+![](screenshots/Screenshot3.png)
+![](screenshots/Screenshot4.png)
+
+
+
+### Development
+
+Want to contribute? Great! :heart:
+
+Fork the repo make changes and make pull requests.
+
+### Todos
+
+ - Make a local database to store the data.
+ - Add a online account system to sync data over the cloud.
+
+License
+----
+
+Apache License 2.0
+
+![](screenshots/LICENSE.png)
+
+
+**Free Software, Hell Yeah!**
+
+[//]: #DownloadLinks
+[1]: https://github.com/i-am-ahad/today/releases/download/v1.0.0/today.apk
